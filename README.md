@@ -15,7 +15,7 @@ To run this project, ensure you have the following installed:
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/HermanCeaser/rust_ownership_example.git](https://github.com/HermanCeaser/rust_ownership_example)
+git clone https://github.com/HermanCeaser/rust_ownership_example.git
 cd rust_ownership_example
 ```
 
