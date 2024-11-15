@@ -1,12 +1,12 @@
 fn main() {
     // println!("Hello, world!");
 
-    let string1 = "Hello";
-    let string2 = "world!";
+    let string1 = String::from("Hello ");
+    let string2 = String::from("World!");
 
     let concatenated_string = concatenate_strings(&string1, &string2);
 
-    println!("Concatenated String is {}", concatenated_string)
+    println!("Concatenated String: {}", concatenated_string)
 }
 
 fn concatenate_strings(foo: &str, bar: &str) -> String {
